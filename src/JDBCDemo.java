@@ -15,10 +15,10 @@ public class JDBCDemo {
 	public static void main(String[] args) throws Exception {
 
 		// Declare the string url for the Driver
-		String url = "jdbc:mysql://127.0.0.1:3306/jdbc";
+		String url = "jdbc:mysql://127.0****/jdbc";
 		// Declare database login info & query that you want to perform
-		String userName = "java";
-		String password = "java123";
+		String userName = "";
+		String password = "";
 		String query = "select studentName from student where id=1";
 		// 2.
 		Class.forName("com.mysql.jdbc.Driver");
